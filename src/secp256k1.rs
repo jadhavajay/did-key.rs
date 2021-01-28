@@ -178,7 +178,7 @@ pub mod test {
 
     #[test]
     fn did_document() {
-        let key = DIDKey::new(DIDKeyType::Secp256k1);
+        let key = DIDKey::generate_new(DIDKeyType::Secp256k1);
 
         let did_doc = key.to_did_document(Config {
             use_jose_format: true,

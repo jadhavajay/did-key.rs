@@ -38,7 +38,7 @@ pub enum Payload {
 }
 
 pub trait KeyMaterial {
-    fn new() -> DIDKey;
+    fn generate_new() -> DIDKey;
 
     fn new_from_seed(seed: &[u8]) -> DIDKey;
 
@@ -98,7 +98,7 @@ impl DIDKey {
         }
     }
 
-    pub fn new(key_type: DIDKeyType) -> Self {
+    pub fn generate_new(key_type: DIDKeyType) -> Self {
         Self::new_from_seed(key_type, vec![].as_slice())
     }
 
@@ -251,7 +251,7 @@ pub mod test {
 
     #[test]
     fn test_did_doc_ld() {
-        let key = DIDKey::new(DIDKeyType::Ed25519);
+        let key = DIDKey::generate_new(DIDKeyType::Ed25519);
         let did_doc = key.to_did_document(Config::default());
 
         let json = serde_json::to_string_pretty(&did_doc).unwrap();
@@ -263,7 +263,7 @@ pub mod test {
 
     #[test]
     fn test_did_doc_json() {
-        let key = DIDKey::new(DIDKeyType::X25519);
+        let key = DIDKey::generate_new(DIDKeyType::X25519);
         let did_doc = key.to_did_document(CONFIG_JOSE_PUBLIC);
 
         let json = serde_json::to_string_pretty(&did_doc).unwrap();
@@ -275,7 +275,7 @@ pub mod test {
 
     #[test]
     fn test_did_doc_json_bls() {
-        let key = DIDKey::new(DIDKeyType::Bls12381G1G2);
+        let key = DIDKey::generate_new(DIDKeyType::Bls12381G1G2);
         let did_doc = key.to_did_document(CONFIG_JOSE_PUBLIC);
 
         let json = serde_json::to_string_pretty(&did_doc).unwrap();
@@ -306,7 +306,7 @@ pub mod test {
 
     #[test]
     fn test_generate_new_key() {
-        let key = DIDKey::new(DIDKeyType::P256);
+        let key = DIDKey::generate_new(DIDKeyType::P256);
         let message = b"secret message";
 
         println!("{}", key.fingerprint());

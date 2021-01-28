@@ -10,6 +10,7 @@ repository = "https://github.com/decentralized-identity/did-key.rs"
 readme = "README.md"
 
 [lib]
+name = "did_key"
 crate-type = [ "lib", "cdylib", "staticlib" ]
 
 [dependencies]
@@ -28,6 +29,7 @@ serde = "1.0"
 serde_json = "1.0"
 base64 = "0.13"
 libsecp256k1 = "0.3.5"
+ffi-support = "0.4"
 
 [dependencies.p256]
 version = "0.5.2"

@@ -1,0 +1,12 @@
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/bin/Debug/netcoreapp3.1/TestDidKey.deps.json
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/bin/Debug/netcoreapp3.1/TestDidKey.runtimeconfig.json
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/bin/Debug/netcoreapp3.1/TestDidKey.runtimeconfig.dev.json
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/bin/Debug/netcoreapp3.1/TestDidKey.dll
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/bin/Debug/netcoreapp3.1/TestDidKey.pdb
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/obj/Debug/netcoreapp3.1/TestDidKey.csprojAssemblyReference.cache
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/obj/Debug/netcoreapp3.1/TestDidKey.AssemblyInfoInputs.cache
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/obj/Debug/netcoreapp3.1/TestDidKey.AssemblyInfo.cs
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/obj/Debug/netcoreapp3.1/TestDidKey.csproj.CoreCompileInputs.cache
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/obj/Debug/netcoreapp3.1/TestDidKey.dll
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/obj/Debug/netcoreapp3.1/TestDidKey.pdb
+/Users/ajay/github/jadhavajay/did-key.rs/wrappers/dotnet/TestDidKey/obj/Debug/netcoreapp3.1/TestDidKey.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\libs\macos\libdid_key.dylib" PackagePath="native/macos/libdid_key.dylib" Pack="true" Visible="false" />
+   
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="UnmanagedMemory.cs" />
+  </ItemGroup>
+</Project>

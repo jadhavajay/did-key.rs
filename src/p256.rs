@@ -152,7 +152,7 @@ pub mod test {
 
     #[test]
     fn did_document() {
-        let key = DIDKey::new(DIDKeyType::P256);
+        let key = DIDKey::generate_new(DIDKeyType::P256);
 
         let did_doc = key.to_did_document(Config {
             use_jose_format: false,

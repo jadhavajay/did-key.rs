@@ -15,3 +15,8 @@ Cargo.lock
 /target
 
 .DS_Store
+
+#For dotnet wrapper project
+wrappers/dotnet/.vs
+wrappers/dotnet/bin
+wrappers/dotnet/obj

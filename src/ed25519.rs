@@ -119,7 +119,7 @@ impl DIDCore for Ed25519KeyPair {
 }
 
 impl KeyMaterial for Ed25519KeyPair {
-    fn new() -> crate::DIDKey {
+    fn generate_new() -> crate::DIDKey {
         Self::new_from_seed(vec![].as_slice())
     }
 
